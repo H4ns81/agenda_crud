@@ -1,6 +1,6 @@
 final createTable = '''
   CREATE TABLE contact(
-    id INT NOT NULL PRIMARY KEY
+    id INT PRIMARY KEY
     ,nome VARCHAR(200) NOT NULL
     ,telefone CHAR(16) NOT NULL
     ,email VARCHAR(150) NOT NULL
@@ -17,7 +17,7 @@ INSERT INTO contact (nome, telefone, email, url_avatar)
 VALUES ('Maitê','(11) 9 9632-8578', 'maite@email.com','https://cdn.pixabay.com/photo/2021/01/17/09/11/woman-5924366_960_720.jpg')
 ''';
 
-final inser3 = '''
+final insert3 = '''
 INSERT INTO contact (nome, telefone, email, url_avatar)
 VALUES ('Hortência','(11) 9 9562-3356','hortencia@email.com','https://cdn.pixabay.com/photo/2021/01/24/09/28/girl-5944691_960_720.jpg')
 ''';
